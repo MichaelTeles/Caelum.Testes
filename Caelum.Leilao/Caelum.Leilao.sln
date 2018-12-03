@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caelum.Leilao", "Caelum.Leilao\Caelum.Leilao.csproj", "{A9C56DB0-AFA0-4BC3-A09E-0C863028E3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromo", "Palindromo\Palindromo.csproj", "{8E94666B-8C5F-444D-B4F2-CE3D98A13482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematica.Maluca", "MatematicaMaluca\Matematica.Maluca.csproj", "{73FD5A7D-49C3-4162-A83A-DAF9FE1F0C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematica.Maluca.Tests", "MatematicaMalucaTests\Matematica.Maluca.Tests.csproj", "{F83AA12D-0B86-416D-93DE-9E678ED3543F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caelum.Leilao.Tests", "Caleum.Leilao.Tests\Caelum.Leilao.Tests.csproj", "{F545032F-E780-423F-AD0A-E04CDAD9456A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ano.Bissexto", "Ano\Ano.Bissexto.csproj", "{F64BE822-037A-4F57-9C12-D317582E66E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ano.Bissexto.Tests", "AnoTests\Ano.Bissexto.Tests.csproj", "{203FB319-E20A-45DB-90EC-49F59AE43330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromo.Tests", "Palindromo.Tests\Palindromo.Tests.csproj", "{8AE8BF95-D32A-4BBF-AC4B-F3A124FE38BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C56DB0-AFA0-4BC3-A09E-0C863028E3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C56DB0-AFA0-4BC3-A09E-0C863028E3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C56DB0-AFA0-4BC3-A09E-0C863028E3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C56DB0-AFA0-4BC3-A09E-0C863028E3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E94666B-8C5F-444D-B4F2-CE3D98A13482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E94666B-8C5F-444D-B4F2-CE3D98A13482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E94666B-8C5F-444D-B4F2-CE3D98A13482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E94666B-8C5F-444D-B4F2-CE3D98A13482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FD5A7D-49C3-4162-A83A-DAF9FE1F0C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FD5A7D-49C3-4162-A83A-DAF9FE1F0C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FD5A7D-49C3-4162-A83A-DAF9FE1F0C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FD5A7D-49C3-4162-A83A-DAF9FE1F0C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83AA12D-0B86-416D-93DE-9E678ED3543F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83AA12D-0B86-416D-93DE-9E678ED3543F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83AA12D-0B86-416D-93DE-9E678ED3543F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83AA12D-0B86-416D-93DE-9E678ED3543F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F545032F-E780-423F-AD0A-E04CDAD9456A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F545032F-E780-423F-AD0A-E04CDAD9456A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F545032F-E780-423F-AD0A-E04CDAD9456A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F545032F-E780-423F-AD0A-E04CDAD9456A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64BE822-037A-4F57-9C12-D317582E66E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64BE822-037A-4F57-9C12-D317582E66E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64BE822-037A-4F57-9C12-D317582E66E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64BE822-037A-4F57-9C12-D317582E66E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203FB319-E20A-45DB-90EC-49F59AE43330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203FB319-E20A-45DB-90EC-49F59AE43330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203FB319-E20A-45DB-90EC-49F59AE43330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203FB319-E20A-45DB-90EC-49F59AE43330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE8BF95-D32A-4BBF-AC4B-F3A124FE38BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE8BF95-D32A-4BBF-AC4B-F3A124FE38BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE8BF95-D32A-4BBF-AC4B-F3A124FE38BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE8BF95-D32A-4BBF-AC4B-F3A124FE38BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://diogofernandesqa.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Caelum.Leilao\\Caelum.Leilao.csproj
+		SccProjectName1 = Caelum.Leilao
+		SccLocalPath1 = Caelum.Leilao
+		SccProjectUniqueName2 = Palindromo\\Palindromo.csproj
+		SccProjectName2 = Palindromo
+		SccLocalPath2 = Palindromo
+		SccProjectUniqueName3 = Caleum.Leilao.Tests\\Caelum.Leilao.Tests.csproj
+		SccProjectName3 = Caleum.Leilao.Tests
+		SccLocalPath3 = Caleum.Leilao.Tests
+		SccProjectUniqueName4 = MatematicaMaluca\\Matematica.Maluca.csproj
+		SccProjectName4 = MatematicaMaluca
+		SccLocalPath4 = MatematicaMaluca
+		SccProjectUniqueName5 = Ano\\Ano.Bissexto.csproj
+		SccProjectName5 = Ano
+		SccLocalPath5 = Ano
+		SccProjectUniqueName6 = AnoTests\\Ano.Bissexto.Tests.csproj
+		SccProjectName6 = AnoTests
+		SccLocalPath6 = AnoTests
+		SccProjectUniqueName7 = MatematicaMalucaTests\\Matematica.Maluca.Tests.csproj
+		SccProjectName7 = MatematicaMalucaTests
+		SccLocalPath7 = MatematicaMalucaTests
+		SccProjectUniqueName8 = Palindromo.Tests\\Palindromo.Tests.csproj
+		SccProjectName8 = Palindromo.Tests
+		SccLocalPath8 = Palindromo.Tests
+	EndGlobalSection
+EndGlobal
